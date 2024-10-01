@@ -1,4 +1,4 @@
-# superGateway
+# superGateway 基于esp32-c6模组的超级网关
 
 ## 产品说明
 > [!NOTE]
