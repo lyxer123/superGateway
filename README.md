@@ -15,3 +15,4 @@
 ![](image/protype.jpg)
 ![](image/back.jpg)
 ![](image/framework.png)
+![](image/尺寸.png)
