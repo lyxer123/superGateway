@@ -11,9 +11,17 @@
 * 
 
 ## Features
-
+### 正面
 ![原型](image/protype.jpg)
+
+### 背面
 ![从后面看](image/back.jpg)
+
+### 电路板框架
 ![本电路板框架](image/framework.png)
+
+### 电路板尺寸
 ![电路板尺寸](image/尺寸.png)
+
+### 本电路板适配的外壳
 ![外壳](image/外壳.png)
