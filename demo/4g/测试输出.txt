@@ -1,0 +1,11 @@
+10:47:38.971 -> ESP32-c6 A7680C ppp test
+10:47:38.971 -> 
+10:47:38.971 -> Starting the modem. It might take a while!
+10:47:38.971 -> PPP Started
+10:47:38.971 -> Manufacturer: SIMCOM INCORPORATED
+10:47:38.971 -> Model: A7680C-LNNY
+10:47:38.971 -> IMEI: 864423060651147
+10:47:39.014 -> Waiting to connect to network...........................................................59.5s
+10:48:38.549 -> Attached: 0
+10:48:38.549 -> State: 1
+10:48:38.549 -> Failed to connect to network!
