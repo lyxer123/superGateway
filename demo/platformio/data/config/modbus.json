@@ -1,0 +1,103 @@
+{
+  "Modbus":[
+      {
+          "Type":"RTU",
+          "PollingInterval":30000,
+          "RetryCount":20,
+          "RetryInterval":100,
+          "RxPin":9,
+          "TxPin":10,
+          "BaudRate":9600,
+          "Config":"SERIAL_8N1",
+          "HardwareSerial":2,
+          "Ops":[
+              {
+                  "PollingInterval":29000,
+                  "SlaveId":2,
+                  "NeedNTP":1,
+                  "NeedId":0,  
+                  "AllinOne":[
+                    {
+                        "Function":3,
+                        "Address":7,
+                        "Len":1,
+                        "DataType":"UInt16",
+                        "endian":"-",
+                        "Coefficient": 1,
+                        "Offset": 0,
+                        "DisplayName":"priThreePhasePower"
+                    },
+                    {
+                        "Function":3,
+                        "Address":29,
+                        "Len":2,
+                        "DataType":"Int32",
+                        "endian":"-",
+                        "Coefficient": 0.01,
+                        "Offset": 0,
+                        "DisplayName":"priThreePhaseEnergy"
+                    },
+                    {
+                        "Function":3,
+                        "Address":0,
+                        "Len":1,
+                        "DataType":"Int16",
+                        "endian":"-",
+                        "Coefficient": 0.1,
+                        "Offset": 0,
+                        "DisplayName":"priThreePhaseVoltage"
+                    },
+                    {
+                      "Function":3,
+                      "Address":3,
+                      "Len":1,
+                      "DataType":"Int16",
+                      "endian":"-",
+                      "Coefficient": 0.01,
+                      "Offset": 0,
+                      "DisplayName":"priThreePhaseCurrent"
+                  }
+                ]
+              },
+              {
+                  "PollingInterval":29000,
+                  "SlaveId":1,  
+                  "NeedNTP":1,
+                  "NeedId":1,                                  
+                  "AllinOne":[
+                      {
+                          "Function":3,
+                          "Address":0,
+                          "Len":10,
+                          "DataType":"Int16",
+                          "endian":"Little",
+                          "Coefficient": 0.1,
+                          "Offset": 0,
+                          "DisplayName":"Power"
+                      },
+                      {
+                          "Function":3,
+                          "Address":4111,
+                          "Len":1,
+                          "DataType":"Int16",
+                          "endian":"Big",
+                          "Coefficient": 0.1,
+                          "Offset": 0,
+                          "DisplayName":"voltage"
+                      },
+                      {
+                          "Function":3,
+                          "Address":4115,
+                          "Len":1,
+                          "DataType":"Int16",
+                          "endian":"Big",
+                          "Coefficient": 0.1,
+                          "Offset": 0,
+                          "DisplayName":"current"
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}
