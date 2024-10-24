@@ -1,7 +1,7 @@
 #include <PPP.h>
 
 #define PPP_MODEM_APN "CMNET"
-#define PPP_MODEM_PIN "0000"  // or NULL
+#define PPP_MODEM_PIN ""  // or NULL
 
 // supergateway A7680C NONE Flow Control
 #define PPP_MODEM_RST     -1
