@@ -12,11 +12,8 @@
 #define PPP_MODEM_CTS     -1
 #define PPP_MODEM_FC      ESP_MODEM_FLOW_CONTROL_NONE
 #define PPP_MODEM_MODEL   PPP_MODEM_SIM7600
-
-#define IO_GSM_PWRKEY 17
-
 #define PPP_MODEM_RST_DELAY 100  // Adjust the value as needed
-
+#define IO_GSM_PWRKEY 17
 
 void onEvent(arduino_event_id_t event, arduino_event_info_t info) {
   switch (event) {
