@@ -121,7 +121,7 @@ void setup() {
 
 void loop() {
   if (PPP.connected()) {
-    testClient("google.com", 80);
+    testClient("baidu.com", 80);      //确认插入的sim卡是可以访问外网的，部分vpn卡可能无法访问外网
   }
   delay(20000);
 }
