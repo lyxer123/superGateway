@@ -1,0 +1,20 @@
+{
+  "Price": [{
+    "Period": [{
+        "StartTime": "00:00:00",
+        "StopTime": "20:19:59",
+        "Parameter": "0.59"
+      },
+      {
+        "StartTime": "20:20:00",
+        "StopTime": "22:59:59",
+        "Parameter": "1.23"
+      },
+      {
+        "StartTime": "23:00:00",
+        "StopTime": "23:59:59",
+        "Parameter": "0.98"
+      }
+    ]
+  }]
+}

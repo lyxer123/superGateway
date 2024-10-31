@@ -1,0 +1,30 @@
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0x15 (USB_UART_HPSYS),boot:0x6e (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40020876
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x4086c410,len:0xb40
+load:0x4086e610,len:0x2d38
+load:0x40875728,len:0x1048
+entry 0x4086c410
+LoRa Duplex with callback
+LoRa init succeeded.
+Sending HeLoRa World!
+Sending HeLoRa World!
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 117
+Message length: 10
+Message: lyx World!
+RSSI: -52
+Snr: 10.00
+
+Sending HeLoRa World!
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 118
+Message length: 10
+Message: lyx World!
+RSSI: -53
+Snr: 10.00

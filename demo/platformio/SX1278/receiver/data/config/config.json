@@ -1,0 +1,9 @@
+{
+    "enableWiFi": 1, 
+    "ssid": "CMCC-1506", 
+    "pass": "12345678", 
+    "ip": "", 
+    "mask": "", 
+    "gw": "", 
+    "tcpListenPort": ""
+}
