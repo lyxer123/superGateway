@@ -28,9 +28,14 @@
 #include "driver/twai.h"
 
 // Pins used to connect to CAN bus transceiver:
+//S3 minigateway
+#define RX_PIN 36
+#define TX_PIN 35
+
+
 // 超级网关的接口是rx-4，tx-9，COM16
-#define RX_PIN 4
-#define TX_PIN 9
+// #define RX_PIN 4
+// #define TX_PIN 9
 
 // rejsCAN的接口是rx-23，tx-3，COM28
 //#define RX_PIN 23
