@@ -7,7 +7,7 @@
 
 本文文档位于 [这里](https://medium.com/@yongxiangliu/a-super-gateway-with-wired-ethernet-4g-lora-zigbee-rs485-can-bus-wifi-bluetooth-and-zigbee-c2f3361c1a2d)
 
-## 通过本产品可以实现很多的转换，如
+## 通过本产品可以实现很多的转换，如如下单功能转换，还可以做组合转换，可实现眼花缭乱的功能，一切尽在您的创意中，或许未来的一个爆款产品就是您设计和创造的。
 
 * zigbee转4g
 * zigbee转wifi
