@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+E:/github/superGateway/demo/esp-idf/W5500_basic/build/CMakeFiles/bootloader
+E:/github/superGateway/demo/esp-idf/W5500_basic/build/CMakeFiles/bootloader.rule
+E:/github/superGateway/demo/esp-idf/W5500_basic/build/CMakeFiles/bootloader-complete.rule
+E:/github/superGateway/demo/esp-idf/W5500_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+E:/github/superGateway/demo/esp-idf/W5500_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+E:/github/superGateway/demo/esp-idf/W5500_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+E:/github/superGateway/demo/esp-idf/W5500_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+E:/github/superGateway/demo/esp-idf/W5500_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+E:/github/superGateway/demo/esp-idf/W5500_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+E:/github/superGateway/demo/esp-idf/W5500_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
