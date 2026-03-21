@@ -20,8 +20,8 @@
 #define ETH_SPI_MOSI 8
 
 // WiFi credentials
-#define WIFI_SSID "SYDD"            // 替换为你要连接的WiFi名称
-#define WIFI_PASS "DDQC@sydd@123"   // 替换为WiFi密码
+#define WIFI_SSID "HONOR300"            // 替换为你要连接的WiFi名称
+#define WIFI_PASS "abc123456"           // 替换为WiFi密码
 
 // Ethernet configuration
 IPAddress eth_ip(192, 168, 1, 1);
